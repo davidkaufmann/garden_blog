@@ -1,0 +1,51 @@
+baseURL = "./"
+languageCode = "de-de"
+title = "Gartensaison 2020"
+theme = "hugo-vitae"
+paginate = 5
+enableRobotsTXT = true
+copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params]
+    keywords = ["Garten", "Pflanzen", "Saison", "Hobby"]
+    description = "Dieser simple Blog dokumentiert unsere Fortschritte und Gedanken während der Gartensaison 2020"
+    pagetitle = "Unsere Gartensaison 2020"
+    subtitle = "Untertitel. Geht auch mit Link"
+    math = true
+    avatar = "img/tree.jpg/"
+    
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+weight = 5
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/dataCobra/hugo-vitae"
+
+[[params.social]]
+name = "RSS"
+icon = "fas fa-rss"
+url = "/index.xml"
