@@ -8,7 +8,6 @@ copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) 
 
 [taxonomies]
     tag = "tags"
-    category = "categories"
     series = "series"
 
 [params]
@@ -17,7 +16,7 @@ copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) 
     pagetitle = "Unsere Gartensaison 2020"
     subtitle = "Untertitel. Geht auch mit Link"
     math = true
-    avatar = "img/tree.jpg"
+    avatar = "/img/tree.jpg"
     
 # Nav.
 [[menu.main]]
@@ -35,15 +34,10 @@ name = "Tags"
 url = "/tags"
 weight = 4
 
-[[menu.main]]
-name = "Categories"
-url = "/categories"
-weight = 5
-
 [[params.social]]
 name = "Github"
 icon = "fab fa-github"
-url = "https://github.com/dataCobra/hugo-vitae"
+url = "https://github.com/davidkaufmann/garden_blog"
 
 [[params.social]]
 name = "RSS"
