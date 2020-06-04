@@ -1,10 +1,11 @@
-baseURL = "https://davidkaufmann.github.io/"
+baseURL = "https://garten.andrave.de/"
 languageCode = "de-de"
 title = "Gartensaison 2020"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = true
 copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+enableEmoji = true
 
 [taxonomies]
     tag = "tags"
@@ -14,9 +15,10 @@ copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) 
     keywords = ["Garten", "Pflanzen", "Saison", "Hobby"]
     description = "Dieser simple Blog dokumentiert unsere Fortschritte und Gedanken während der Gartensaison 2020"
     pagetitle = "Unsere Gartensaison 2020"
-    subtitle = "Untertitel. Geht auch mit Link"
+    subtitle = "Planen, pflanzen, pflegen, ernten, nutzen"
     math = true
     avatar = "/img/tree.jpg"
+    listAuthor = true
     
 # Nav.
 [[menu.main]]
@@ -27,6 +29,11 @@ weight = 1
 [[menu.main]]
 name = "About"
 url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Kontakt"
+url = "/kontakt"
 weight = 3
 
 [[menu.main]]
