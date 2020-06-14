@@ -1,6 +1,6 @@
 ---
 title: "About"
-draft: True
+draft: false
 tags: [GitHub, Open Source, Andrea, David, About, hugo]
 author: "David"
 ---
