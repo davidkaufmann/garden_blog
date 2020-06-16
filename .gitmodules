@@ -1,7 +1,0 @@
-[submodule "themes/hugo-vitae"]
-	path = themes/hugo-vitae
-	url = https://github.com/datacobra/hugo-vitae.git
-[submodule "public"]
-	path = public
-	url = git@github.com:davidkaufmann/davidkaufmann.github.io.git
-	branch = master
