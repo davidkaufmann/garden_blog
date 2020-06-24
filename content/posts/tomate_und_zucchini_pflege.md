@@ -1,7 +1,7 @@
 ---
 title: "Tomate und Zucchini Pflege"
 date: 2020-06-18T20:19:23+02:00
-tags: []
+tags: [Zucchini, Mulchen, Tomaten]
 author: Andrea
 erstellt: 2020-06-18T23:00:23+02:00
 ---
@@ -10,7 +10,7 @@ Heute war im Garten alles im Namen der Pflege. Dadurch dass wir in der letzten W
 Das Zucchini Beet
 ---
 Im Zucchini Beet hatten wir ja als Vorkultur Spinat. Diesen habe ich ja eigentlich abgeerntet, allerdings habe ich wohl etwas zu wenig abgeschnitten, da immer noch einige Spinatpflanzen fleissig am wachsen waren. Und das vor allem an den Rändern der Mulchschicht, welche Dave letzt Woche angelegt hatte. Auch in der Mitte, wo kein Papier lag hat sich enorm viel Unkraut angesammelt.![Zucchinibeet vorher](/img/tomate_und_zucchini_pflege2.jpg) Ich habe daher jetzt alles rausgezogen und die Zucchini Pflanzen "freigelegt". Diese gedeihen übrigens sehr gut :wink:. Aber man muss vor allem mit dem Mulch sehr viel großzügiger sein, wenn man den starken Unkarutbewuchs vermeiden will. ![Zucchinibeet ohne Unkraut](/img/tomate_und_zucchini_pflege3.jpg)
-Am Ende des Tages habe ich dann die Mulchschicht noch mal etwas erneuert und zwar vor allem durch Reste vom Asia-Salat, welcher immer noch munter weiter wächst und welchen ich heute mal wieder gestutzt habe. Mal schauen ob das nun die erwünschte Wirkung zeigt. Leider fehlt hier das Bild, hatte es am Ende etwas eilig, wird aber nachgeliefert.
+Am Ende des Tages habe ich dann die Mulchschicht noch mal etwas erneuert und zwar vor allem durch Reste vom Asia-Salat, welcher immer noch munter weiter wächst und welchen ich heute mal wieder gestutzt habe. Mal schauen ob das nun die erwünschte Wirkung zeigt.![Zucchinibeet gemulcht](/img/tomate_und_zucchini_pflege6.jpg)
 
 Die Tomaten
 ---
