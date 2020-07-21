@@ -19,6 +19,7 @@ enableEmoji = true
     math = true
     avatar = "/img/tree.jpg"
     listAuthor = true
+    customCSS = "custom.css"
     
 # Nav.
 [[menu.main]]
