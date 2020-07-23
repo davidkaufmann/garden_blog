@@ -19,7 +19,7 @@ enableEmoji = true
     math = true
     avatar = "/img/tree.jpg"
     listAuthor = true
-    customCSS = "custom.css"
+    customCSS = "simple-grid.css"
     
 # Nav.
 [[menu.main]]
