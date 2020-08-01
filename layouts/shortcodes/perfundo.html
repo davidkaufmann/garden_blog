@@ -1,0 +1,32 @@
+{{ $paramCount := len .Params }}
+{{ if gt $paramCount 0 }}
+  <div class="row">
+  {{ range $param := .Params }}
+    {{ $items := split $param "|" }}
+    {{ $itemCount := len $items }}
+    <!-- Item count must be at least 2 as
+    "class" and "src" must be specified -->
+    {{ if ge $itemCount 2 }}
+    <div class="perfundo">
+      <a class="perfundo__link" href="#{{ index $items 0 }}">
+        <img src="{{ index $items 1}}" alt="Demo image">
+      </a>
+      <div id="{{ index $items 0 }}" class="perfundo__overlay fadeIn">
+        <figure class="perfundo__content perfundo__figure">
+          <img src="{{ index $items 1 }}" alt="Demo image">
+          <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url({{ index $items 1 }});"></div>
+        </figure>
+        <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+        {{ if index $items 3 }}
+        <a class="perfundo__prev perfundo__control" href="#{{ index $items 3 }}">Next</a>
+        {{ end }}
+        {{ if index $items 4 }}
+        <a class="perfundo__next perfundo__control" href="#{{ index $items 4 }}">Prev</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  {{ end }}
+
+</div>
+{{ end }}
