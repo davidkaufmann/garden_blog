@@ -48,3 +48,9 @@ Sonstige Beobachtungen
 "col-4|/img/016_20200730_der_lauch_ist_drin9.jpg|Paprika"
 "col-4|/img/016_20200730_der_lauch_ist_drin10.jpg|Rote Bete"
 >}}
+
+{{< perfundo
+"id_08|/img/016_20200730_der_lauch_ist_drin8.jpg|Kohlrabi||id_09"
+"id_09|/img/016_20200730_der_lauch_ist_drin9.jpg|Paprika|id_08|id_10"
+"id_10|/img/016_20200730_der_lauch_ist_drin10.jpg|Rote Bete|id_09|"
+>}}

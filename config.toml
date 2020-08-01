@@ -3,9 +3,12 @@ languageCode = "de-de"
 title = "Gartensaison 2020"
 theme = "hugo-vitae"
 paginate = 5
-enableRobotsTXT = true
+enableRobotsTXT = false
 copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 enableEmoji = true
+
+[permalinks]
+    posts = "/:year/:month/:title/"
 
 [taxonomies]
     tag = "tags"
