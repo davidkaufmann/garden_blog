@@ -1,0 +1,18 @@
+<div class="perfundo">
+  <a class="perfundo__link" href="#{{ .Get "id" }}">
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="perfundo__link__image">
+  </a>
+  <div id="{{ .Get "id" }}" class="perfundo__overlay fadeIn">
+    <figure class="perfundo__content perfundo__figure">
+      <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}">
+      <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url({{ .Get "src" }});"></div>
+    </figure>
+    <a href="#perfundo-untarget" class="perfundo__close perfundo__control">Close</a>
+    {{ if .Get "prev" }}
+    <a class="perfundo__prev perfundo__control" href="#{{ .Get "prev" }}">Prev</a>
+    {{ end }}
+    {{ if .Get "next" }}
+    <a class="perfundo__next perfundo__control" href="#{{ .Get "next" }}">Next</a>
+    {{ end }}
+  </div>
+</div>
