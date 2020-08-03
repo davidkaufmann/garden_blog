@@ -1,7 +1,7 @@
 ---
 title: "Der Lauch ist drin"
 date: 2020-07-30T22:04:27+02:00
-draft: true
+draft: false
 erstellt: 2020-07-30T22:04:04+02:00
 tags: [Lauch, Koblauch, Zucchini, Gurke, Tomaten, Mehltau, Rote Bete, Kürbis, Kartoffeln, Kohlrabi, Paprika]
 author: Andrea
