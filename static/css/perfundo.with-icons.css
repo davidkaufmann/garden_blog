@@ -1,3 +1,7 @@
+body {
+  text-align: justify;
+}
+
 .perfundo-gallery{
   display: grid;
   grid-auto-flow: dense;
