@@ -22,7 +22,7 @@ enableEmoji = true
     math = true
     avatar = "/img/tree.jpg"
     listAuthor = true
-    customCSS = "perfundo.with-icons.css"
+    customCSS = "css/perfundo.with-icons.css"
     
 # Nav.
 [[menu.main]]
