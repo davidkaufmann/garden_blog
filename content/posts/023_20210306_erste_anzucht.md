@@ -1,7 +1,7 @@
 ---
 title: "Erste Anzucht"
 erstellt: 2021-03-06T16:28:37+02:00
-draft: true
+draft: false
 date: 2021-03-06T12:00:00+02:00
 author: Andrea
 tags: [Tomaten, Chilis, Auberginen, Habanero, San Marzano, Bird's Eye, Anzucht]

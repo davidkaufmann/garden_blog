@@ -1,7 +1,7 @@
 ---
 title: "Start im Freiland"
 erstellt: 2021-03-19T16:28:37+02:00
-draft: true
+draft: false
 date: 2021-03-14T12:00:00+02:00
 author: Andrea
 tags: [Möhren, Radieschen, Kohlrabi, Zwiebeln, Mulchen, Petersilie, Spinat]
