@@ -1,8 +1,8 @@
 ---
 title: "Planung ist alles"
-erstellt: 2021-06-03T16:28:37+02:00
+erstellt: 2021-03-06T16:28:37+02:00
 draft: true
-date: 2021-25-01T12:00:00+02:00
+date: 2021-01-25T12:00:00+02:00
 author: Andrea
 tags: [Saisonstart, Aussaat, Beete, Starkzehrer, Schwachzehrer, Fruchtfolge]
 ---

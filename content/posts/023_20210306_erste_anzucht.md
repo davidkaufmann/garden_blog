@@ -1,8 +1,8 @@
 ---
 title: "Erste Anzucht"
-erstellt: 2021-06-03T16:28:37+02:00
+erstellt: 2021-03-06T16:28:37+02:00
 draft: true
-date: 2021-06-03T12:00:00+02:00
+date: 2021-03-06T12:00:00+02:00
 author: Andrea
 tags: [Tomaten, Chilis, Auberginen, Habanero, San Marzano, Bird's Eye, Anzucht]
 ---
@@ -25,11 +25,11 @@ Last but not least habe ich mich heute auch schon mal um unsere Tomaten Anzucht 
 
 Zur Übersicht hier noch mal das heutige Tagewerk
 ---
-Auberginen: 4 Töpfchen á 3 Samen (Ziel 4 Pflanzen)
-Habenero White: 4 Töpfchen á 3 Samen (Ziel 4 Pflanzen)
-Bird’s Eye Chilis: 24 Töpfchen á 3 Samen (Ziel mind. 24 Pflanzen)
-Rispentomaten: 6 Töpfchen a 3 Samen (Ziel 6 Pflanzen)
-San Marzano Tomaten: 20 Töpfchen á 1 Samen (Ziel 16 Pflanzen)
+- Auberginen: 4 Töpfchen á 3 Samen (Ziel 4 Pflanzen)
+- Habenero White: 4 Töpfchen á 3 Samen (Ziel 4 Pflanzen)
+- Bird’s Eye Chilis: 24 Töpfchen á 3 Samen (Ziel mind. 24 Pflanzen)
+- Rispentomaten: 6 Töpfchen a 3 Samen (Ziel 6 Pflanzen)
+- San Marzano Tomaten: 20 Töpfchen á 1 Samen (Ziel 16 Pflanzen)
 
 Gerade bei den Bird‘s Eye Chilis und den Rispentomaten haben wir so viele Samen, da können wir dann wirklich die stärksten der Pflänzchen durch pikieren auswählen und das Beste aus den Samen rausholen. 
 

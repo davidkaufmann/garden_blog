@@ -1,8 +1,8 @@
 ---
 title: "Erste Keimerfolge"
-erstellt: 2021-12-03T16:28:37+02:00
+erstellt: 2021-03-12T16:28:37+02:00
 draft: true
-date: 2021-12-03T12:00:00+02:00
+date: 2021-03-12T12:00:00+02:00
 author: Andrea
 tags: [Tomaten, Chilis, Auberginen, San Marzano, Anzucht]
 ---
