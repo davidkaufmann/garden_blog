@@ -14,7 +14,7 @@ jobs:
           submodules: recursive
       -
         name: Run Hugo
-        uses: crazy-max/ghaction-hugo@v1.3.2
+        uses: crazy-max/ghaction-hugo@v1.3.3
         with:
           version: latest
           extended: false
