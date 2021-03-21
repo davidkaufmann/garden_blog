@@ -1,10 +1,10 @@
-baseURL = "https://garten.andrave.de/"
+baseURL = "https://garten.familykaufmann.de/"
 languageCode = "de-de"
-title = "Gartensaison 2020"
+title = "Unser Gartenblog"
 theme = "hugo-vitae"
 paginate = 5
 enableRobotsTXT = false
-copyright = "© 2020 Andrave | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+copyright = "© 2021 Andrea & David | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 enableEmoji = true
 
 [permalinks]
@@ -16,10 +16,10 @@ enableEmoji = true
 
 [params]
     keywords = ["Garten", "Pflanzen", "Saison", "Hobby"]
-    description = "Dieser simple Blog dokumentiert unsere Fortschritte und Gedanken während der Gartensaison 2020"
-    pagetitle = "Unsere Gartensaison 2020"
+    description = "Dieser simple Blog dokumentiert unsere Fortschritte und Gedanken im Garten"
+    pagetitle = "Unser Gartenblog"
     subtitle = "Planen, pflanzen, pflegen, ernten, nutzen"
-    math = true
+    math = false
     avatar = "/img/tree.jpg"
     listAuthor = true
     customCSS = "css/perfundo.with-icons.css"
