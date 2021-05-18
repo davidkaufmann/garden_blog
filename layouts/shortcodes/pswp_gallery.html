@@ -1,0 +1,52 @@
+<script type="module">
+    import PhotoSwipeLightbox from "/pswp/photoswipe-lightbox.esm.min.js";
+    const options = {
+        gallerySelector: '#{{ .Get "id"}}',
+        childSelector: 'a',
+        pswpModule: '/pswp/photoswipe.esm.min.js',
+        pswpCSS: '/pswp/photoswipe.css'
+    };
+
+    const lightbox = new PhotoSwipeLightbox(options);
+
+    let firstElWithBadge;
+    let lastElWithBadge;
+
+    // Gallery is starting to open
+    lightbox.on('afterInit', () => {
+        firstElWithBadge = lightbox.pswp.currSlide.data.element;
+        hideBadge(firstElWithBadge);
+    });
+
+    // Gallery is starting to close
+    lightbox.on('close', () => {
+        lastElWithBadge = lightbox.pswp.currSlide.data.element;
+        if(lastElWithBadge !== firstElWithBadge) {
+            showBadge(firstElWithBadge);
+            hideBadge(lastElWithBadge);
+        }
+    });
+
+    // Gallery is closed
+    lightbox.on('destroy', () => {
+        showBadge(lastElWithBadge);
+    });
+
+    lightbox.init();
+
+    function hideBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .add('pswp-badge__hidden');
+    };
+    function showBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .remove('pswp-badge__hidden');
+    }
+</script>
+<div class='pswp-gallery pswp-gallery--{{ .Get "class" }}' id='{{ .Get "id" }}'>
+    {{.Inner}}
+</div>

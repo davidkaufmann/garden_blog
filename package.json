@@ -3,7 +3,6 @@
   "dependencies": {},
   "devDependencies": {}
  },
- "devDependencies": {},
  "scripts": {
   "no-exif": "exiftool -all:all= -r .\\static\\img -overwrite_original"
  },
