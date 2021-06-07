@@ -12,6 +12,7 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
+          ref: master
       -
         name: Run Hugo
         uses: crazy-max/ghaction-hugo@v1.3.3
