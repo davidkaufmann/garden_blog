@@ -1,0 +1,40 @@
+{{ $image := .Page.Resources.GetMatch (.Get "src") }}
+{{ $three_col := print ($image.Resize "260x").RelPermalink " 260w"}}
+{{ $two_col := print ($image.Resize "400x").RelPermalink " 400w"}}
+{{ $col := print ($image.Resize "800x").RelPermalink " 800w"}}
+{{ $thumb_set := (print $three_col ", " $two_col ", " $col)}}
+
+{{ $src_set := (print $image.RelPermalink " " $image.Width "w") }}
+{{ if gt $image.Width "500"}}
+    {{ $x_small := $image.Resize "500x" }}
+    {{ $src_set = (print $src_set ", "  $x_small.RelPermalink " 500w") }}
+{{ end }}
+
+{{ $small := $image.Resize "800x" }}
+{{ $src_set = (print $src_set ", " $small.RelPermalink " 800w") }}
+
+{{ if gt $image.Width "1200"}}
+    {{ $medium := $image.Resize "1200x" }}
+    {{ $src_set = (print $src_set ", " $medium.RelPermalink " 1200w") }}
+{{ end }}
+
+{{ if gt $image.Width "1500"}}
+    {{ $large := $image.Resize "1500x" }}
+    {{ $src_set = (print $src_set ", " $large.RelPermalink " 1500w") }}
+{{ end }}
+
+{{ $thumb_class := "pswp-gallery__thumb" }}
+{{ if isset .Params "thumb_h" }}
+    {{ $thumb_class = (print $thumb_class " h-" ( .Get "thumb_h"))}}
+{{ end }}
+{{ if isset .Params "thumb_w" }}
+    {{ $thumb_class = (print $thumb_class " w-" ( .Get "thumb_w"))}}
+{{ else }}
+    {{ $thumb_class = (print $thumb_class " w-max")}}
+{{ end }}
+
+<a class="spotlight"
+    href="{{ $small.RelPermalink }}" 
+    data-src-800="{{ $small.RelPermalink }}">
+    <img src="{{ $small.RelPermalink }}">
+</a>
