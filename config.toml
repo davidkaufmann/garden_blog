@@ -23,7 +23,12 @@ enableEmoji = true
     avatar = "/img/tree.jpg"
     listAuthor = true
     customCSS = "css/perfundo.with-icons.css"
-    
+
+[params.customJS]
+enabled = true
+src = "/js/jquery-3.6.0.min.js"
+#integrity = "asd"
+
 # Nav.
 [[menu.main]]
 name = "Home"
