@@ -4,8 +4,13 @@
   "devDependencies": {}
  },
  "scripts": {
+  "build": "esbuild assets/js/main.js --bundle --minify --sourcemap --outfile=static/js/bundle.min.js",
   "no-exif": "exiftool -all:all= -r .\\static\\img -overwrite_original"
  },
  "name": "garden_blog",
- "version": "0.1.0"
+ "version": "0.1.0",
+ "dependencies": {
+  "esbuild": "^0.12.15",
+  "spotlight.js": "^0.7.8"
+ }
 }
