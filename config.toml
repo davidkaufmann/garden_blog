@@ -26,7 +26,7 @@ enableEmoji = true
 
 [params.customJS]
 enabled = true
-src = "/js/jquery-3.6.0.min.js"
+src = "/js/bundle.min.js"
 #integrity = "asd"
 
 # Nav.
