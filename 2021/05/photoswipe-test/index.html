@@ -1,0 +1,152 @@
+<!doctype html><html lang=en><head><meta name=generator content="Hugo 0.85.0"><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta property="og:title" content="Photoswipe test"><meta name=author content="Dave"><meta name=keywords content="tech,pswp,photoswipe"><meta name=description content="Photoswipe testss
+import PhotoSwipeLightbox from &#34;/pswp/photoswipe-lightbox.esm.min.js&#34;; const options = { gallerySelector: '#pswp-onecol', …"><meta property="og:title" content="Photoswipe test"><meta property="og:description" content="Photoswipe testss
+import PhotoSwipeLightbox from &#34;/pswp/photoswipe-lightbox.esm.min.js&#34;; const options = { gallerySelector: '#pswp-onecol', childSelector: 'a', pswpModule: '/pswp/photoswipe.esm.min.js', pswpCSS: '/pswp/photoswipe.css' }; const lightbox = new PhotoSwipeLightbox(options); let firstElWithBadge; let lastElWithBadge; lightbox.on('afterInit', () = { firstElWithBadge = lightbox.pswp.currSlide.data.element; hideBadge(firstElWithBadge); }); lightbox.on('close', () = { lastElWithBadge = lightbox.pswp.currSlide.data.element; if(lastElWithBadge !== firstElWithBadge) { showBadge(firstElWithBadge); hideBadge(lastElWithBadge); } }); lightbox.on('destroy', () = { showBadge(lastElWithBadge); }); lightbox.init(); function hideBadge(el) { if (el.querySelector(('.pswp-badge'))) el.querySelector('.pswp-badge') .classList .add('pswp-badge__hidden'); }; function showBadge(el) { if (el."><meta property="og:type" content="article"><meta property="og:url" content="https://garten.familykaufmann.de/2021/05/photoswipe-test/"><meta property="article:section" content="posts"><meta property="article:published_time" content="2021-05-11T23:56:00+02:00"><meta property="article:modified_time" content="2021-05-11T23:56:00+02:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Photoswipe test"><meta name=twitter:description content="Photoswipe testss
+import PhotoSwipeLightbox from &#34;/pswp/photoswipe-lightbox.esm.min.js&#34;; const options = { gallerySelector: '#pswp-onecol', childSelector: 'a', pswpModule: '/pswp/photoswipe.esm.min.js', pswpCSS: '/pswp/photoswipe.css' }; const lightbox = new PhotoSwipeLightbox(options); let firstElWithBadge; let lastElWithBadge; lightbox.on('afterInit', () = { firstElWithBadge = lightbox.pswp.currSlide.data.element; hideBadge(firstElWithBadge); }); lightbox.on('close', () = { lastElWithBadge = lightbox.pswp.currSlide.data.element; if(lastElWithBadge !== firstElWithBadge) { showBadge(firstElWithBadge); hideBadge(lastElWithBadge); } }); lightbox.on('destroy', () = { showBadge(lastElWithBadge); }); lightbox.init(); function hideBadge(el) { if (el.querySelector(('.pswp-badge'))) el.querySelector('.pswp-badge') .classList .add('pswp-badge__hidden'); }; function showBadge(el) { if (el."><link rel=stylesheet type=text/css media=screen href=/css/normalize.css><link rel=stylesheet type=text/css media=screen href=/css/main.css><link rel=stylesheet type=text/css media=screen href=/css/all.css><script src=/js/bundle.min.js></script><link rel=stylesheet type=text/css media=screen href=/css/perfundo.with-icons.css><title>Photoswipe test | Unser Gartenblog</title></head><body><header><div id=avatar><a href=https://garten.familykaufmann.de/><img src=/img/tree.jpg alt="Unser Gartenblog"></a></div><div id=titletext><h2 id=title><a href=https://garten.familykaufmann.de/>Unser Gartenblog</a></h2></div><div id=title-description><p id=subtitle>Planen, pflanzen, pflegen, ernten, nutzen</p><div id=social><nav><ul><li><a href=https://github.com/davidkaufmann/garden_blog><i title=Github class="icons fab fa-github"></i></a></li><li><a href=/index.xml><i title=RSS class="icons fas fa-rss"></i></a></li></ul></nav></div></div><div id=mainmenu><nav><ul><li><a href=/>Home</a></li><li><a href=/about>About</a></li><li><a href=/tags>Tags</a></li></ul></nav></div></header><main><div class=post><div class=post-header><div class=meta><div class=date><span class=day>11</span>
+<span class=rest>May 2021</span></div></div><div class=matter><h1 class=title>Photoswipe test</h1><p class=post-meta><span class=post-meta><i class="fas fa-user"></i>&nbsp;
+Dave</span></p></div></div><div class=markdown><p>Photoswipe testss</p><script type=module>
+    import PhotoSwipeLightbox from "/pswp/photoswipe-lightbox.esm.min.js";
+    const options = {
+        gallerySelector: '#pswp-onecol',
+        childSelector: 'a',
+        pswpModule: '/pswp/photoswipe.esm.min.js',
+        pswpCSS: '/pswp/photoswipe.css'
+    };
+
+    const lightbox = new PhotoSwipeLightbox(options);
+
+    let firstElWithBadge;
+    let lastElWithBadge;
+
+    
+    lightbox.on('afterInit', () => {
+        firstElWithBadge = lightbox.pswp.currSlide.data.element;
+        hideBadge(firstElWithBadge);
+    });
+
+    
+    lightbox.on('close', () => {
+        lastElWithBadge = lightbox.pswp.currSlide.data.element;
+        if(lastElWithBadge !== firstElWithBadge) {
+            showBadge(firstElWithBadge);
+            hideBadge(lastElWithBadge);
+        }
+    });
+
+    
+    lightbox.on('destroy', () => {
+        showBadge(lastElWithBadge);
+    });
+
+    lightbox.init();
+
+    function hideBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .add('pswp-badge__hidden');
+    };
+    function showBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .remove('pswp-badge__hidden');
+    }
+</script><div class="pswp-gallery pswp-gallery--two-column" id=pswp-onecol><a href=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=800 data-pswp-height=300 data-pswp-srcset="/2021/05/photoswipe-test/mehltau_alert1.jpg 800w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-300 w-max"><div class=pswp-badge>badge!!!</div></a></div><script type=module>
+    import PhotoSwipeLightbox from "/pswp/photoswipe-lightbox.esm.min.js";
+    const options = {
+        gallerySelector: '#pswp-twocol',
+        childSelector: 'a',
+        pswpModule: '/pswp/photoswipe.esm.min.js',
+        pswpCSS: '/pswp/photoswipe.css'
+    };
+
+    const lightbox = new PhotoSwipeLightbox(options);
+
+    let firstElWithBadge;
+    let lastElWithBadge;
+
+    
+    lightbox.on('afterInit', () => {
+        firstElWithBadge = lightbox.pswp.currSlide.data.element;
+        hideBadge(firstElWithBadge);
+    });
+
+    
+    lightbox.on('close', () => {
+        lastElWithBadge = lightbox.pswp.currSlide.data.element;
+        if(lastElWithBadge !== firstElWithBadge) {
+            showBadge(firstElWithBadge);
+            hideBadge(lastElWithBadge);
+        }
+    });
+
+    
+    lightbox.on('destroy', () => {
+        showBadge(lastElWithBadge);
+    });
+
+    lightbox.init();
+
+    function hideBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .add('pswp-badge__hidden');
+    };
+    function showBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .remove('pswp-badge__hidden');
+    }
+</script><div class="pswp-gallery pswp-gallery--two-column" id=pswp-twocol><a href=/2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=2592 data-pswp-height=1456 data-pswp-srcset="/2021/05/photoswipe-test/1.jpg 2592w, /2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_800x0_resize_q75_box.jpg 800w, /2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_1200x0_resize_q75_box.jpg 1200w, /2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_1500x0_resize_q75_box.jpg 1500w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/1_hu0958b2ea9f055783f72c5e7e5460a058_1332497_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-150 w-max"><div class=pswp-badge>1</div></a><a href=/2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=2592 data-pswp-height=1456 data-pswp-srcset="/2021/05/photoswipe-test/2.jpg 2592w, /2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_800x0_resize_q75_box.jpg 800w, /2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_1200x0_resize_q75_box.jpg 1200w, /2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_1500x0_resize_q75_box.jpg 1500w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/2_hu970868cb90b8413df656e9723f2ebf34_1335849_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-150 w-max"><div class=pswp-badge>2</div></a></div><script type=module>
+    import PhotoSwipeLightbox from "/pswp/photoswipe-lightbox.esm.min.js";
+    const options = {
+        gallerySelector: '#pswp-fours',
+        childSelector: 'a',
+        pswpModule: '/pswp/photoswipe.esm.min.js',
+        pswpCSS: '/pswp/photoswipe.css'
+    };
+
+    const lightbox = new PhotoSwipeLightbox(options);
+
+    let firstElWithBadge;
+    let lastElWithBadge;
+
+    
+    lightbox.on('afterInit', () => {
+        firstElWithBadge = lightbox.pswp.currSlide.data.element;
+        hideBadge(firstElWithBadge);
+    });
+
+    
+    lightbox.on('close', () => {
+        lastElWithBadge = lightbox.pswp.currSlide.data.element;
+        if(lastElWithBadge !== firstElWithBadge) {
+            showBadge(firstElWithBadge);
+            hideBadge(lastElWithBadge);
+        }
+    });
+
+    
+    lightbox.on('destroy', () => {
+        showBadge(lastElWithBadge);
+    });
+
+    lightbox.init();
+
+    function hideBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .add('pswp-badge__hidden');
+    };
+    function showBadge(el) {
+        if (el.querySelector(('.pswp-badge')))
+            el.querySelector('.pswp-badge')
+            .classList
+            .remove('pswp-badge__hidden');
+    }
+</script><div class="pswp-gallery pswp-gallery--" id=pswp-fours><a href=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=800 data-pswp-height=300 data-pswp-srcset="/2021/05/photoswipe-test/mehltau_alert1.jpg 800w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-100 w-max"><div class=pswp-badge>1</div></a><a href=/2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=800 data-pswp-height=600 data-pswp-srcset="/2021/05/photoswipe-test/horz.jpg 800w, /2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-100 w-max"><div class=pswp-badge>2</div></a><a href=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=800 data-pswp-height=300 data-pswp-srcset="/2021/05/photoswipe-test/mehltau_alert1.jpg 800w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/mehltau_alert1_hu27ee6e609adf303c27010548cdb5caf0_57283_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-100 w-max"><div class=pswp-badge>3</div></a><a href=/2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=800 data-pswp-height=600 data-pswp-srcset="/2021/05/photoswipe-test/horz.jpg 800w, /2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/horz_hu3861b61044ae9bf17bee00fa517becc7_68331_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-100 w-max"><div class=pswp-badge>4</div></a><a href=/2021/05/photoswipe-test/big_hu743781aa8e47573792cff4ba53b23b53_39388_800x0_resize_q75_box.jpg class=pswp-gallery__item data-pswp-width=580 data-pswp-height=700 data-pswp-srcset="/2021/05/photoswipe-test/big.jpg 581w, /2021/05/photoswipe-test/big_hu743781aa8e47573792cff4ba53b23b53_39388_500x0_resize_q75_box.jpg 500w, /2021/05/photoswipe-test/big_hu743781aa8e47573792cff4ba53b23b53_39388_800x0_resize_q75_box.jpg 800w" data-cropped=true target=_blank><img src=/2021/05/photoswipe-test/big_hu743781aa8e47573792cff4ba53b23b53_39388_800x0_resize_q75_box.jpg alt class="pswp-gallery__thumb h-100 w-max"><div class=pswp-badge>5</div></a></div></div><div class=tags><div class=taxosfloating_left><p>Tags</p></div><div class=termsfloating_right><p><a href=/tags/photoswipe/>photoswipe</a>
+<a href=/tags/pswp/>pswp</a>
+<a href=/tags/tech/>tech</a></p></div><div class=clearit></div></div></div></main><footer>© 2021 Andrea & David | <a href=https://github.com/dataCobra/hugo-vitae>Vitae</a> theme for <a href=https://gohugo.io>Hugo</a></footer></body></html>
