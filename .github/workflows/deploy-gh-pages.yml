@@ -2,6 +2,8 @@ name: hugo
 
 on:
   push:
+    branches:
+      - master
 
 jobs:
   hugo:
